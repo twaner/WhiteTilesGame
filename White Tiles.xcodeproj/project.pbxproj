@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194F37B91998011E00F256CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194F37B81998011E00F256CF /* Foundation.framework */; };
+		194F37BB1998011E00F256CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194F37BA1998011E00F256CF /* CoreGraphics.framework */; };
+		194F37BD1998011E00F256CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194F37BC1998011E00F256CF /* UIKit.framework */; };
+		194F37C31998011E00F256CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194F37C11998011E00F256CF /* InfoPlist.strings */; };
+		194F37C51998011E00F256CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 194F37C41998011E00F256CF /* main.m */; };
+		194F37C91998011E00F256CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 194F37C81998011E00F256CF /* AppDelegate.m */; };
+		194F37CC1998011E00F256CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194F37CA1998011E00F256CF /* Main.storyboard */; };
+		194F37CF1998011E00F256CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194F37CE1998011E00F256CF /* ViewController.m */; };
+		194F37D11998011E00F256CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194F37D01998011E00F256CF /* Images.xcassets */; };
+		194F37D81998011E00F256CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194F37D71998011E00F256CF /* XCTest.framework */; };
+		194F37D91998011E00F256CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194F37B81998011E00F256CF /* Foundation.framework */; };
+		194F37DA1998011E00F256CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194F37BC1998011E00F256CF /* UIKit.framework */; };
+		194F37E21998011E00F256CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194F37E01998011E00F256CF /* InfoPlist.strings */; };
+		194F37E41998011E00F256CF /* White_TilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194F37E31998011E00F256CF /* White_TilesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		194F37DB1998011E00F256CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194F37AD1998011E00F256CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194F37B41998011E00F256CF;
+			remoteInfo = "White Tiles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194F37B51998011E00F256CF /* White Tiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Tiles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		194F37B81998011E00F256CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		194F37BA1998011E00F256CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		194F37BC1998011E00F256CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		194F37C01998011E00F256CF /* White Tiles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "White Tiles-Info.plist"; sourceTree = "<group>"; };
+		194F37C21998011E00F256CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		194F37C41998011E00F256CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		194F37C61998011E00F256CF /* White Tiles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "White Tiles-Prefix.pch"; sourceTree = "<group>"; };
+		194F37C71998011E00F256CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		194F37C81998011E00F256CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		194F37CB1998011E00F256CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		194F37CD1998011E00F256CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		194F37CE1998011E00F256CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		194F37D01998011E00F256CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		194F37D61998011E00F256CF /* White TilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "White TilesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		194F37D71998011E00F256CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		194F37DF1998011E00F256CF /* White TilesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "White TilesTests-Info.plist"; sourceTree = "<group>"; };
+		194F37E11998011E00F256CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		194F37E31998011E00F256CF /* White_TilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = White_TilesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194F37B21998011E00F256CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194F37BB1998011E00F256CF /* CoreGraphics.framework in Frameworks */,
+				194F37BD1998011E00F256CF /* UIKit.framework in Frameworks */,
+				194F37B91998011E00F256CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194F37D31998011E00F256CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194F37D81998011E00F256CF /* XCTest.framework in Frameworks */,
+				194F37DA1998011E00F256CF /* UIKit.framework in Frameworks */,
+				194F37D91998011E00F256CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194F37AC1998011E00F256CF = {
+			isa = PBXGroup;
+			children = (
+				194F37BE1998011E00F256CF /* White Tiles */,
+				194F37DD1998011E00F256CF /* White TilesTests */,
+				194F37B71998011E00F256CF /* Frameworks */,
+				194F37B61998011E00F256CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		194F37B61998011E00F256CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194F37B51998011E00F256CF /* White Tiles.app */,
+				194F37D61998011E00F256CF /* White TilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194F37B71998011E00F256CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194F37B81998011E00F256CF /* Foundation.framework */,
+				194F37BA1998011E00F256CF /* CoreGraphics.framework */,
+				194F37BC1998011E00F256CF /* UIKit.framework */,
+				194F37D71998011E00F256CF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		194F37BE1998011E00F256CF /* White Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				194F37C71998011E00F256CF /* AppDelegate.h */,
+				194F37C81998011E00F256CF /* AppDelegate.m */,
+				194F37CA1998011E00F256CF /* Main.storyboard */,
+				194F37CD1998011E00F256CF /* ViewController.h */,
+				194F37CE1998011E00F256CF /* ViewController.m */,
+				194F37D01998011E00F256CF /* Images.xcassets */,
+				194F37BF1998011E00F256CF /* Supporting Files */,
+			);
+			path = "White Tiles";
+			sourceTree = "<group>";
+		};
+		194F37BF1998011E00F256CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				194F37C01998011E00F256CF /* White Tiles-Info.plist */,
+				194F37C11998011E00F256CF /* InfoPlist.strings */,
+				194F37C41998011E00F256CF /* main.m */,
+				194F37C61998011E00F256CF /* White Tiles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		194F37DD1998011E00F256CF /* White TilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				194F37E31998011E00F256CF /* White_TilesTests.m */,
+				194F37DE1998011E00F256CF /* Supporting Files */,
+			);
+			path = "White TilesTests";
+			sourceTree = "<group>";
+		};
+		194F37DE1998011E00F256CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				194F37DF1998011E00F256CF /* White TilesTests-Info.plist */,
+				194F37E01998011E00F256CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		194F37B41998011E00F256CF /* White Tiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194F37E71998011E00F256CF /* Build configuration list for PBXNativeTarget "White Tiles" */;
+			buildPhases = (
+				194F37B11998011E00F256CF /* Sources */,
+				194F37B21998011E00F256CF /* Frameworks */,
+				194F37B31998011E00F256CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "White Tiles";
+			productName = "White Tiles";
+			productReference = 194F37B51998011E00F256CF /* White Tiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		194F37D51998011E00F256CF /* White TilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194F37EA1998011E00F256CF /* Build configuration list for PBXNativeTarget "White TilesTests" */;
+			buildPhases = (
+				194F37D21998011E00F256CF /* Sources */,
+				194F37D31998011E00F256CF /* Frameworks */,
+				194F37D41998011E00F256CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				194F37DC1998011E00F256CF /* PBXTargetDependency */,
+			);
+			name = "White TilesTests";
+			productName = "White TilesTests";
+			productReference = 194F37D61998011E00F256CF /* White TilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194F37AD1998011E00F256CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Taiowa Waner";
+				TargetAttributes = {
+					194F37D51998011E00F256CF = {
+						TestTargetID = 194F37B41998011E00F256CF;
+					};
+				};
+			};
+			buildConfigurationList = 194F37B01998011E00F256CF /* Build configuration list for PBXProject "White Tiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 194F37AC1998011E00F256CF;
+			productRefGroup = 194F37B61998011E00F256CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194F37B41998011E00F256CF /* White Tiles */,
+				194F37D51998011E00F256CF /* White TilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194F37B31998011E00F256CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194F37D11998011E00F256CF /* Images.xcassets in Resources */,
+				194F37C31998011E00F256CF /* InfoPlist.strings in Resources */,
+				194F37CC1998011E00F256CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194F37D41998011E00F256CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194F37E21998011E00F256CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194F37B11998011E00F256CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194F37CF1998011E00F256CF /* ViewController.m in Sources */,
+				194F37C91998011E00F256CF /* AppDelegate.m in Sources */,
+				194F37C51998011E00F256CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194F37D21998011E00F256CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194F37E41998011E00F256CF /* White_TilesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		194F37DC1998011E00F256CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 194F37B41998011E00F256CF /* White Tiles */;
+			targetProxy = 194F37DB1998011E00F256CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		194F37C11998011E00F256CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194F37C21998011E00F256CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		194F37CA1998011E00F256CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194F37CB1998011E00F256CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		194F37E01998011E00F256CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194F37E11998011E00F256CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		194F37E51998011E00F256CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		194F37E61998011E00F256CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		194F37E81998011E00F256CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "White Tiles/White Tiles-Prefix.pch";
+				INFOPLIST_FILE = "White Tiles/White Tiles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		194F37E91998011E00F256CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "White Tiles/White Tiles-Prefix.pch";
+				INFOPLIST_FILE = "White Tiles/White Tiles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		194F37EB1998011E00F256CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/White Tiles.app/White Tiles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "White Tiles/White Tiles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "White TilesTests/White TilesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		194F37EC1998011E00F256CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/White Tiles.app/White Tiles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "White Tiles/White Tiles-Prefix.pch";
+				INFOPLIST_FILE = "White TilesTests/White TilesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194F37B01998011E00F256CF /* Build configuration list for PBXProject "White Tiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194F37E51998011E00F256CF /* Debug */,
+				194F37E61998011E00F256CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		194F37E71998011E00F256CF /* Build configuration list for PBXNativeTarget "White Tiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194F37E81998011E00F256CF /* Debug */,
+				194F37E91998011E00F256CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		194F37EA1998011E00F256CF /* Build configuration list for PBXNativeTarget "White TilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194F37EB1998011E00F256CF /* Debug */,
+				194F37EC1998011E00F256CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194F37AD1998011E00F256CF /* Project object */;
+}
