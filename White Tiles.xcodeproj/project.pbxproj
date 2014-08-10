@@ -21,6 +21,11 @@
 		194F37DA1998011E00F256CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194F37BC1998011E00F256CF /* UIKit.framework */; };
 		194F37E21998011E00F256CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194F37E01998011E00F256CF /* InfoPlist.strings */; };
 		194F37E41998011E00F256CF /* White_TilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194F37E31998011E00F256CF /* White_TilesTests.m */; };
+		194F37F11998014B00F256CF /* BlackTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F37ED1998014B00F256CF /* BlackTile.png */; };
+		194F37F21998014B00F256CF /* MainMenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F37EE1998014B00F256CF /* MainMenuBackground.png */; };
+		194F37F31998014B00F256CF /* Tiles Project Pic.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 194F37EF1998014B00F256CF /* Tiles Project Pic.PNG */; };
+		194F37F41998014B00F256CF /* WhiteTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F37F01998014B00F256CF /* WhiteTile.png */; };
+		194F37F71998032000F256CF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194F37F61998032000F256CF /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		194F37DF1998011E00F256CF /* White TilesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "White TilesTests-Info.plist"; sourceTree = "<group>"; };
 		194F37E11998011E00F256CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		194F37E31998011E00F256CF /* White_TilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = White_TilesTests.m; sourceTree = "<group>"; };
+		194F37ED1998014B00F256CF /* BlackTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackTile.png; sourceTree = "<group>"; };
+		194F37EE1998014B00F256CF /* MainMenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenuBackground.png; sourceTree = "<group>"; };
+		194F37EF1998014B00F256CF /* Tiles Project Pic.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tiles Project Pic.PNG"; sourceTree = "<group>"; };
+		194F37F01998014B00F256CF /* WhiteTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTile.png; sourceTree = "<group>"; };
+		194F37F51998032000F256CF /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		194F37F61998032000F256CF /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +126,8 @@
 				194F37C71998011E00F256CF /* AppDelegate.h */,
 				194F37C81998011E00F256CF /* AppDelegate.m */,
 				194F37CA1998011E00F256CF /* Main.storyboard */,
+				194F37F51998032000F256CF /* GameViewController.h */,
+				194F37F61998032000F256CF /* GameViewController.m */,
 				194F37CD1998011E00F256CF /* ViewController.h */,
 				194F37CE1998011E00F256CF /* ViewController.m */,
 				194F37D01998011E00F256CF /* Images.xcassets */,
@@ -126,6 +139,10 @@
 		194F37BF1998011E00F256CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				194F37ED1998014B00F256CF /* BlackTile.png */,
+				194F37EE1998014B00F256CF /* MainMenuBackground.png */,
+				194F37EF1998014B00F256CF /* Tiles Project Pic.PNG */,
+				194F37F01998014B00F256CF /* WhiteTile.png */,
 				194F37C01998011E00F256CF /* White Tiles-Info.plist */,
 				194F37C11998011E00F256CF /* InfoPlist.strings */,
 				194F37C41998011E00F256CF /* main.m */,
@@ -229,8 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				194F37D11998011E00F256CF /* Images.xcassets in Resources */,
+				194F37F41998014B00F256CF /* WhiteTile.png in Resources */,
 				194F37C31998011E00F256CF /* InfoPlist.strings in Resources */,
 				194F37CC1998011E00F256CF /* Main.storyboard in Resources */,
+				194F37F11998014B00F256CF /* BlackTile.png in Resources */,
+				194F37F31998014B00F256CF /* Tiles Project Pic.PNG in Resources */,
+				194F37F21998014B00F256CF /* MainMenuBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194F37F71998032000F256CF /* GameViewController.m in Sources */,
 				194F37CF1998011E00F256CF /* ViewController.m in Sources */,
 				194F37C91998011E00F256CF /* AppDelegate.m in Sources */,
 				194F37C51998011E00F256CF /* main.m in Sources */,
