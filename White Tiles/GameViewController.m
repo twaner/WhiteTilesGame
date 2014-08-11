@@ -31,6 +31,11 @@
     TimerLabel.hidden = YES;
     // Display Exit button
     Exit.hidden = NO;
+    // High score
+    
+    if (ScoreNumber > HighScoreNumber) {
+        [[NSUserDefaults standardUserDefaults] setInteger:ScoreNumber forKey:@"HighScoreSaved"];
+    }
 }
 
 -(IBAction)RowDown1:(id)sender{
@@ -483,6 +488,8 @@
     RowNumber = 1;
     
     // Set Starting conditions
+    HighScoreNumber = [[NSUserDefaults standardUserDefaults] integerForKey:@"HighScoreSaved"];
+    
     ScoreNumber = 0;
     TimerNumber = 10;
     Exit.hidden = YES;
