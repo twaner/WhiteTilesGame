@@ -13,7 +13,13 @@ int Row2BlackTile;
 int Row3BlackTile;
 int Row4BlackTile;
 int Row5BlackTile;
+
 int RowNumber;
+
+int ScoreNumber;
+float TimerNumber;
+
+NSInteger HighScoreNumber;
 
 @interface GameViewController : UIViewController
 {
@@ -44,6 +50,11 @@ int RowNumber;
     IBOutlet UIButton *Button2;
     IBOutlet UIButton *Button3;
     IBOutlet UIButton *Button4;
+    IBOutlet UILabel *ScoreLabel;
+    IBOutlet UILabel *TimerLabel;
+    IBOutlet UIButton *Exit;
+    
+    NSTimer *Timer;
     
     // My stuff
     NSArray *RowTileArray;
@@ -65,9 +76,16 @@ int RowNumber;
 -(void)PlaceRow4BlackTile;
 -(void)PlaceRow5BlackTile;
 -(void)TileMoveDown;
+-(void)Score;
+-(void)TimerCountdown;
+-(void)GameOver;
+
 // Mine
 -(void)PlaceRowTile:(int)row;
 -(void)ShowOrHideAll:(NSArray *)tiles action:(BOOL)show;
--(void)TileMover: (int)row;
+-(void)TileMover:(int)row;
+-(void)SetToWhite:(NSArray *)tiles;
+-(void)PlaceBlackTile:(NSArray *)tiles atIndex:(int)index;
+-(void)PlaceWholeRow:(NSArray *)tiles atRow:(int)row;
 
 @end

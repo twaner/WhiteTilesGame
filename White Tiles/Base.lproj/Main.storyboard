@@ -153,12 +153,13 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMQ-jI-hhK">
-                                <rect key="frame" x="80" y="86" width="186" height="58"/>
+                                <rect key="frame" x="67" y="86" width="186" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Start Game">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="StartGame:" destination="Owm-Nr-yGr" eventType="touchUpInside" id="af7-qu-lRC"/>
@@ -204,6 +205,34 @@
                                     <action selector="RowDown4:" destination="Owm-Nr-yGr" eventType="touchUpInside" id="kjP-SA-BWu"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNY-wg-7il">
+                                <rect key="frame" x="20" y="16" width="99" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer:10.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRs-lL-86A">
+                                <rect key="frame" x="153" y="16" width="147" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKL-jc-aiJ">
+                                <rect key="frame" x="85" y="161" width="150" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.70999999999999996" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Exit">
+                                    <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="Bmj-dI-123"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -212,6 +241,7 @@
                         <outlet property="Button2" destination="8WJ-aQ-QOO" id="IAN-Ti-8Tg"/>
                         <outlet property="Button3" destination="12U-YJ-wjp" id="oNt-O2-0xr"/>
                         <outlet property="Button4" destination="kqM-UP-Fy5" id="qrA-Tq-cfq"/>
+                        <outlet property="Exit" destination="TKL-jc-aiJ" id="lsD-ma-bI7"/>
                         <outlet property="Row1Tile1" destination="Pfm-1p-Id3" id="lBg-sI-cwq"/>
                         <outlet property="Row1Tile2" destination="itT-pe-EBt" id="7c6-IS-zBH"/>
                         <outlet property="Row1Tile3" destination="2i2-Ys-3LJ" id="8Pc-XI-51u"/>
@@ -232,11 +262,13 @@
                         <outlet property="Row5Tile2" destination="JHj-7s-qh4" id="PpZ-pt-tvt"/>
                         <outlet property="Row5Tile3" destination="FSH-ia-WpL" id="59d-9n-aif"/>
                         <outlet property="Row5Tile4" destination="rWu-77-jsY" id="cJZ-SK-pFk"/>
+                        <outlet property="ScoreLabel" destination="lNY-wg-7il" id="OBZ-ex-bVo"/>
+                        <outlet property="TimerLabel" destination="eRs-lL-86A" id="KUQ-yo-D96"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UTE-Bp-mS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="327" y="188"/>
+            <point key="canvasLocation" x="347" y="172"/>
         </scene>
     </scenes>
     <resources>
